@@ -1,0 +1,20 @@
+#aew{
+    background-image: url(/asset/img/meat.png);
+    border: 1px solid rgb(255, 255, 255);
+    height: 270px;
+
+}
+#asd {
+    display: none;
+}
+#aew:hover +#asd {
+    display: block;
+}
+
+#product {
+position: absolute;
+}
+#icons2{
+    position: relative;
+  padding-bottom: 2px;
+}

@@ -1,0 +1,114 @@
+#parent{
+    display: flex;
+}
+#left{
+
+background-color: rgb(255, 255, 255);
+width: 20%;
+
+}
+#left button{
+    background-color: rgb(127,173,57);
+    padding: 10px;
+    color: aliceblue;
+   text-align: center;
+   border: 1px solid gray;
+}
+
+#left  ul li{
+    display: block !important;
+    padding-bottom: 15px;   
+}
+#left button:hover{
+   background-color: rgb(89, 120, 42);
+}
+
+#icons{
+    display: flex;
+    margin-left: 300px;
+    border-right: 1px solid gray;
+}
+
+#nav {
+margin-right: 20px;
+}
+#holder button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+   background-color: rgb(127,173,57);
+   border:  px solid rgb(127,173,57);
+   color: white;
+}
+
+#holder input{
+    padding: 10px;
+    padding-right: 150px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#right{
+    width: 75%;
+    border: 1px solid rgb(255, 255, 255);
+}
+#search{
+   display: flex; 
+   border: 1px solid rgb(160, 160, 160);
+   margin-left: 40px;
+   margin-right: 27px;
+   height: 49px;
+}
+#search p{
+    margin:10px;     
+}
+#home{
+    display: flex;
+    padding-left: 70px;
+}
+
+#love{
+    padding-left: 175px;
+    padding-right: 20px;
+}
+#bag{
+    padding-right: 10px;
+}
+
+
+
+ #page{
+    z-index: 9px;
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-right: 60px;
+}
+#pages:hover + #page{
+    display: block;
+}
+#phone{
+    display: flex;
+}
+ .parent{
+    display: flex;
+ }
+
+ .parent .left{
+    width: 25%;
+ }
+ .parent .right{
+    width: 70%;
+ }
+ .left  li{
+    padding-top: 10px;
+ }
+ #imgs img{
+    position: relative;
+ }
+ #imgs ul li{
+    display: ;
+ }
+ #imgs :-moz-ui-valid

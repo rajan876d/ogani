@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-icon {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.img-icon svg {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.img-icon{
+display:none;
+}
+.img-box:hover .img-icon{
+transition: all, 0.5s;
+display:block;
+}
+.img-icon svg:hover {
+    transition: all, 0.5s;
+    transform: rotate(360deg);
+    background-color: rgb(4, 110, 93);
+    color: #ffffff !important;
+}
